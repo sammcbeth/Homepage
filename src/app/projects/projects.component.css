@@ -1,0 +1,118 @@
+.projects {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pt-md-5 {
+  padding-top: 6rem;
+}
+
+.flex-equal>* {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .flex-md-equal>* {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+
+
+.darkbox {
+
+  -webkit-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+  -moz-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+  box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+.filter {
+  background-size: cover;
+
+  display: inline;
+  padding-top: 10vh;
+  padding-bottom: 7vh;
+
+
+
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all .8s;
+}
+
+.filter:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.project-image {
+  border-radius: 1%;
+}
+
+
+
+.btn-secondary,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+  transition: .6s;
+}
+
+.btn-secondary:hover {
+  color: white;
+  background-color: black;
+  border: .05rem solid black;
+}
+
+
+.container-fluid {
+  min-height: 94vh;
+  padding: 3% 7%;
+}
+
+.actionRow {
+  min-height: 30vh;
+  padding-bottom: 4vh;
+}
+
+.row {
+  min-height: 30vh;
+}
+
+.darkboxHR {
+  color: white;
+  border-color: white;
+}
+
+.lightboxHR {
+  color: black;
+  border-color: black;
+}
+
+.product-info {
+  padding: 2rem 0;
+}
+
+h4 {
+  padding-bottom: 1vh;
+}
+
+.card {
+  margin-left: 2%;
+  box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+}
