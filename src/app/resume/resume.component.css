@@ -1,0 +1,48 @@
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .15rem solid #fff;
+  transition: .8s;
+}
+
+.btn-secondary:hover {
+  color: black;
+  border: .15rem solid black;
+}
+
+.text-center {
+
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+
+}
+
+
+
+
+.container-fluid {
+
+  min-height: 94vh;
+  padding: 3% 7%;
+}
+
+img {
+  -webkit-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+  -moz-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+  box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+}

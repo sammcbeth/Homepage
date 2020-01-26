@@ -97,9 +97,7 @@
   padding-bottom: 4vh;
 }
 
-.row {
-  min-height: 30vh;
-}
+
 
 .darkboxHR {
   color: white;
@@ -122,4 +120,16 @@ h4 {
 .card {
   margin-left: 2%;
   box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+}
+
+
+
+.icon-links {
+  color: rgb(13, 18, 65);
+  transition: .6s;
+}
+
+.icon-links:hover {
+  text-decoration: none;
+  color: white;
 }

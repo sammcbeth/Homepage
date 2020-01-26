@@ -17,7 +17,7 @@ a:hover {
 
 .btn-secondary:hover {
   color: black;
-  border: 2px solid black;
+  border: .05rem solid black;
 }
 
 p {
@@ -67,13 +67,14 @@ p {
 }
 
 .cover-heading {
-  margin-top: 30vh;
+  margin-top: 20vh;
   font-size: 4rem;
-  padding-bottom: 3vh;
+  padding-bottom: 2vh;
 }
 
 .cover-text {
   padding-bottom: 2vh;
+  color: white;
 }
 
 .cover .btn-lg {
@@ -88,4 +89,133 @@ p {
 .mastfoot {
   margin-top: 20vh;
   color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Typing animation  */
+.typewriter {
+  overflow: hidden;
+  padding-bottom: 3vh;
+
+}
+
+.typewriter p {
+  color: white;
+
+
+}
+
+.line {
+  margin: 0 auto;
+  width: 11.5em;
+  height: 1.5em;
+  position: relative;
+  border-right: 2px solid white;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 1.5em;
+  /* transform: translateY(-50%); */
+}
+
+.anim-typewriter-one {
+  animation: typewriter 1.7s steps(40) 1.7s 1 normal both,
+    blinkTextCursor 650ms steps(40) 6 normal;
+  border-right: 2px solid transparent;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 11.5em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.show-me-two {
+  animation: cssAnimation 0s 3.9s forwards;
+  visibility: hidden;
+}
+
+@keyframes cssAnimation {
+  to {
+    visibility: visible;
+  }
+}
+
+
+.anim-typewriter-two {
+  animation: typewriter 1.7s steps(40) 3.9s 1 normal both,
+    blinkTextCursor 600ms steps(40) 10 normal;
+  border-right: 2px solid transparent;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 11.5em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+
+.show-me-three {
+  animation: cssAnimation 0s 6.1s forwards;
+  visibility: hidden;
+}
+
+@keyframes cssAnimation {
+  to {
+    visibility: visible;
+  }
+}
+
+.anim-typewriter-three {
+  animation: typewriter 1.7s steps(40) 6.1s 1 normal both,
+    blinkTextCursor 650ms steps(40) 13 normal;
+  border-right: 2px solid transparent;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 11.5em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
 }
