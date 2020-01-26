@@ -27,7 +27,9 @@ p {
 /*
  * Base structure
  */
-
+.white-border {
+  border-left: 3px solid white;
+}
 
 
 
@@ -69,14 +71,14 @@ p {
 .cover-heading {
   margin-top: 20vh;
   font-size: 4rem;
-  padding-bottom: 2vh;
+  margin-bottom: 2vh;
 }
 
 .cover-text {
-  padding-bottom: 2vh;
+  padding-left: 2vw;
   color: white;
-
   text-align: left;
+
   text-indent: 2em;
 
 
@@ -100,7 +102,7 @@ p {
 /* Typing animation  */
 .typewriter {
   overflow: hidden;
-  padding-bottom: 3vh;
+  margin-bottom: 3vh;
 
 }
 

@@ -5,6 +5,16 @@
 
 .carousel-item {
   padding: 7% 15%;
+  color: white;
+}
+
+.carousel-img {
+  height: 35vh;
+
+  -webkit-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+  -moz-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+  box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+  border-radius: 1%;
 }
 
 .pt-md-5 {
