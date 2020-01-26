@@ -75,6 +75,11 @@ p {
 .cover-text {
   padding-bottom: 2vh;
   color: white;
+
+  text-align: left;
+  text-indent: 2em;
+
+
 }
 
 .cover .btn-lg {
