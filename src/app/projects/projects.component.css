@@ -143,3 +143,15 @@ h4 {
   text-decoration: none;
   color: white;
 }
+
+li {
+  text-align: left;
+}
+
+.disabled {
+  color: grey;
+}
+
+.disabled:hover {
+  color: grey;
+}
