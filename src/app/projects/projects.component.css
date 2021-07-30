@@ -1,6 +1,7 @@
 .projects {
   min-height: 100vh;
   text-align: center;
+  
 }
 
 .carousel-item {
@@ -16,6 +17,7 @@
   box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
   border-radius: 1%;
 }
+
 
 .pt-md-5 {
   padding-top: 6rem;
@@ -51,14 +53,18 @@
   border: 1px solid white;
 }
 
-
+.img-box{
+  margin-top: 5vh;
+  
+    
+} 
 
 
 
 
 .filter {
   background-size: cover;
-
+  
   display: inline;
   padding-top: 10vh;
   padding-bottom: 7vh;
