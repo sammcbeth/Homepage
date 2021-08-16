@@ -11337,7 +11337,7 @@ video.bg-video {
 }
 .masthead .masthead-content {
   position: relative;
-  max-width: 40rem;
+  max-width: 50rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -11414,5 +11414,234 @@ video.bg-video {
     top: 0;
     right: 2.5rem;
     width: auto;
+  }
+}
+
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+  transition: .8s;
+}
+
+.btn-secondary:hover {
+  color: black;
+  border: .05rem solid black;
+}
+
+p {
+  color: black;
+}
+
+/*
+ * Base structure
+ */
+.white-border {
+  border-left: 3px solid white;
+}
+
+
+
+.text-center {
+
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+
+}
+
+.cover-container {
+  text-align: center;
+  max-width: 55em;
+}
+
+
+.container-fluid {
+
+  min-height: 94vh;
+  padding: 3% 7%;
+}
+
+
+
+/*
+ * Cover
+ */
+.cover {
+
+  margin: auto auto;
+  padding: 0 1.5rem;
+}
+
+.cover-heading {
+  margin-top: 20vh;
+  font-size: 4rem;
+  margin-bottom: 2vh;
+}
+
+.cover-text {
+  padding-left: 2vw;
+  color: white;
+  text-align: left;
+
+  text-indent: 2em;
+
+
+}
+
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  margin-top: 20vh;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Typing animation  */
+.typewriter {
+  overflow: hidden;
+  margin-bottom: 3vh;
+
+}
+
+.typewriter p {
+  color: white;
+
+
+}
+
+.line {
+  margin: 0 auto;
+  width: 11.5em;
+  height: 1.5em;
+  position: relative;
+  border-right: 2px solid white;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 1.5em;
+  /* transform: translateY(-50%); */
+}
+
+.anim-typewriter-one {
+  animation: typewriter 1.7s steps(40) 1.7s 1 normal both,
+    blinkTextCursor 650ms steps(40) 6 normal;
+  border-right: 2px solid transparent;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 11.5em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.show-me-two {
+  animation: cssAnimation 0s 3.9s forwards;
+  visibility: hidden;
+}
+
+@keyframes cssAnimation {
+  to {
+    visibility: visible;
+  }
+}
+
+
+.anim-typewriter-two {
+  animation: typewriter 1.7s steps(40) 3.9s 1 normal both,
+    blinkTextCursor 600ms steps(40) 10 normal;
+  border-right: 2px solid transparent;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 11.5em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+
+.show-me-three {
+  animation: cssAnimation 0s 6.1s forwards;
+  visibility: hidden;
+}
+
+@keyframes cssAnimation {
+  to {
+    visibility: visible;
+  }
+}
+
+.anim-typewriter-three {
+  animation: typewriter 1.7s steps(40) 6.1s 1 normal both,
+    blinkTextCursor 650ms steps(40) 13 normal;
+  border-right: 2px solid transparent;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 11.5em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
   }
 }
